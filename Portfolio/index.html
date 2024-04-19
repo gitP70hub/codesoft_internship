@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <a href="#" class="logo">Pranaliport.</a>
+      <nav class="nav">
+        <a href="#home" class="active" style="--i: 1">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#skills" style="--i: 3">Skills</a>
+        <a href="#projects" style="--i: 4">Projects</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+    <section class="banner" id="home">
+      <div class="social-icons">
+        <a href="" style="--i: 7"><i class="bx bxl-facebook"></i></a>
+        <a href="" style="--i: 8"><i class="bx bxl-twitter"></i></a>
+        <a href="" style="--i: 9"><i class="bx bxl-linkedin"></i></a>
+        <a href="" style="--i: 10"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="banner-wrapper">
+        <div class="banner-content">
+          <h3>Hello, I am</h3>
+          <h1>PRANALI KHONDE</h1>
+          <h3>And I'm a <span id="retype-element"></span></h3>
+          <p>
+            A Fervent enthusiast and inspiring Software Engineer, driven by an insatiable curiosity for problem-solving and a passion for Innovation.
+          </p>
+          <button>Download CV</button>
+        </div>
+  </body>
+        <div class="banner-img">
+          <img src="c:\Users\prana\OneDrive\Pictures\PranaliAvatar.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <div class="bubbles">
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+      <img src="./assets/images/bubble.png" alt="Bubble" />
+    </div>
+    <main class="main">
+      <section class="new-section" id="about">
+        <h2 class="title">About Me</h2>
+        <p class="about-me">
+        As a software engineering enthusiast with a passionate zeal for technology and a knack for problem analysis, I am driven by an insatiable curiosity to explore the intricacies of software development.
+        I have delved into various technical domains, mastering skills in languages like Python and JavaScript. Eager to embrace any opportunity that allows me to apply my knowledge and expand my technical repertoire. </p>
+        <p class="about-me">
+        I am committed to leveraging emerging technologies to create innovative solutions that make a meaningful impact. I am adaptable and resilient, capable of navigating through ambiguity and embracing challenges with a positive attitude.        </p>
+      </section>
+      <section class="new-section" id="skills">
+        <h2 class="title">My Skills:</h2>
+        <div class="my-skills">
+          <label for="react">HTML:</label>
+          <progress id="react" value="80" max="100">80%</progress>
+        </div>
+        <div class="my-skills">
+          <label for="next">CSS:</label>
+          <progress id="next" value="90" max="100">90%</progress>
+        </div>
+        <div class="my-skills">
+          <label for="express">Javascript:</label>
+          <progress id="express" value="70" max="100">70%</progress>
+        </div>
+        <div class="my-skills">
+          <label for="rust">Bootstrap:</label>
+          <progress id="rust" value="40" max="100">40%</progress>
+        </div>
+      </section>
+      <section class="new-section" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="project-wrapper">
+          <a href="#">Lung Capacity Indicator Device</a>
+          <p>
+            This innovative IoT-based biomedical project offers real-time insights into respiratory wellness, empowering users to track and optimize their lung function with ease.
+            By blowing air into the spirometer, internal balls rise, passing sensors at specific distances. Utilizing Arduino Uno, male-female wires, and LEDs, the device accurately measures lung capacity.
+          </p>
+          <div class="photo-container">
+            <img src="assets/images/lungs.webp" alt="Photo 1">
+        </div>        
+        </div>
+        <div class="project-wrapper">
+          <a href="#">Polling website</a>
+          <p>A dynamic platform crafted with HTML, CSS, and JavaScript, where you and your friends can easily decide where to eat or how to spend your free time. 
+            Explore and create polls on various options, from dining destinations to leisure activities.
+             The website displays real-time voting results, revealing the most popular choice among your group. 
+             Share your pool with friends and let the fun begin as you plan your next adventure together!
+          </p>
+          <div class="photo-container">
+            <img src="assets/images/poll.png" alt="Photo 1">
+        </div> 
+        </div>
+        <div class="project-wrapper">
+          <a href="#">CTF</a>
+          <p>
+            In my projects, I've engaged in CTF challenges, successfully uncovering flags and honing my cybersecurity skills.
+            By participating in CTF challenges, users sharpen their skills, uncover flags, and gain practical experience in cybersecurity. 
+              Whether it's cryptography, reverse engineering, or web exploitation, our CTF challenges offer a dynamic and engaging way to learn and grow in the field of cybersecurity."
+          </p>
+          <div class="photo-container">
+            <img src="assets/images/CTF.png" alt="Photo 1">
+        </div> 
+        </div>
+        <div class="project-wrapper">
+          <a href="#">Heart Failure Prediction</a>
+          <p>
+            Heart failure prediction project aims to develop a machine learning model that predicts the likelihood of heart failure based on patient data, facilitating early intervention and personalized healthcare. This project involves collecting patient demographics, medical history, and diagnostic information to train the model for accurate predictions.
+          </p>
+          <div class="photo-container">
+            <img src="assets/images/heartp.png" alt="Photo 1">
+        </div> 
+        </div>
+      </section>
+      <!-- <section class="new-section" id="contact">
+        <h2 class="title">Let's Get In Touch</h2>
+        <div class="contact-wrapper">
+          <span>Email: </span>
+          <h3>pk47@mail.com</h3>
+        </div>
+        <div class="contact-wrapper">
+          <span>Phone: </span>
+          <h3>123 - 4567 - 890</h3>
+        </div>
+        <div class="contact-wrapper">
+          <span>Twitter: </span>
+          <h3>twk01@handle</h3>
+        </div>
+      </section> -->
+      <section class="container contact" id="contact">
+        <div class="contact-container">
+            <!-- <div class="main-title">
+                <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+            </div> -->
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>Contact me here</h4>
+                    <p>
+                        Feel free to reach out to me for any inquiries or collaborations. 
+                        Let's connect and bring your ideas to life! 📩
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Location</span>
+                            </div>
+                            <p>
+                                : Nagpur, India
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </div>
+                            <p>
+                                <span>: ituniversal@gmail.com</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Education</span>
+                            </div>
+                            <p>
+                                <span>: Raisoni University, India</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Mobile Number</span>
+                            </div>
+                            <p>
+                                <span>: 07522670617</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-globe-africa"></i>
+                                <span>Languages</span>
+                            </div>
+                            <p>
+                                <span>: English, Hindi, Marathi</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-icons">
+                        <div class="contact-icon">
+                            <a href="www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact">
+                    <form action="" class="contact-form">
+                        <div class="input-control i-c-2">
+                            <input type="text" required placeholder="YOUR NAME">
+                            <input type="email" required placeholder="YOUR EMAIL">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" required placeholder="ENTER SUBJECT">
+                        </div>
+                        <div class="input-control">
+                            <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <a href="#" class="main-btn">
+                                <span class="btn-text">Send</span>
+                                <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        . Designed by <span>PRANALI KHONDE</span>
+      </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      window.addEventListener("scroll", () => {
+        const header = document.getElementById('header');
+        const bannerHeight = document.getElementById('home').clientHeight;
+        const verticalScrollPx = window.scrollY || window.pageYOffset;
+
+        if (verticalScrollPx < 100) {
+          header.style.background = "transparent";
+        } else if (verticalScrollPx < bannerHeight) {
+          header.style.background = "linear-gradient(to right, rgb(4 119 124), #00ab9e, rgb(3, 122, 126))";
+        } else {
+          header.style.background = "#01787d";
+        }
+      });
+
+      var typed = new Typed("#retype-element", {
+        strings: ["Software Engineer", "Web Developer", "Cyber-Security Enthusiast"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        smartBackspace: true,
+        loop: true,
+        loopCount: Infinity,
+      });
+    </script>
+  </body>
+</html>
